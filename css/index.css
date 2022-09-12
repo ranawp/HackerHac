@@ -1,0 +1,27 @@
+*:focus {
+    outline: none;
+}
+
+.nav_bg {
+    background-color: #3F0066;
+    font-size: 13px;
+
+    height: 60px;
+}
+
+
+.primary-color {
+    color: #F3291A;
+}
+
+.primary-button {
+    background-color: #F2291A;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* 
+nav.primary-button {
+    width: 100px;
+    height: 45px;
+} */
