@@ -136,9 +136,35 @@ i.fa-solid.fa-magnifying-glass {
     left: 8px;
 }
 
+/* WHY HACKERHAC AT  */
+.image-relative {
+    position: relative;
+}
 
+.image-absulate {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
 
+.section-container {
+    width: 94%;
+    margin: 0 auto;
+}
 
+/* certification courses */
+i.fa-solid.fa-layer-group {
+    color: #F3291A;
+    font-size: 13px;
+}
+
+i.fa-solid.fa-user-graduate {
+    color: #F3291A;
+}
+
+i.fa-solid.fa-star {
+    color: #FFA400;
+}
 
 /* media query */
 @media only screen and (min-width: 320px) and (max-width:480px) {
