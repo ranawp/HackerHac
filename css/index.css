@@ -38,7 +38,7 @@
 
 .nav-link {
     font-size: 13px !important;
-    color: #FFFFFF !important;
+
 }
 
 .fa-solid,
@@ -166,6 +166,55 @@ i.fa-solid.fa-star {
     color: #FFA400;
 }
 
+/* courses section */
+.courses {
+    background-color: #F1F1F1;
+}
+
+.course-info {
+    font-size: 12px;
+}
+
+.course-price {
+    font-size: 17px;
+}
+
+.courses-btn {
+    background-color: transparent;
+    color: #65008B;
+    padding: 5px 25px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 3px solid #65008B;
+    border-radius: 1rem;
+    transition: 0.3s;
+    position: absolute;
+    right: 3rem;
+}
+
+.courses-btn:hover {
+    background-color: #65008B;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+/* skill test */
+.skil-test {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 20px;
+}
+
+.skill-card {
+    width: 20rem;
+}
+
+
+
+
+
+
+
 /* media query */
 @media only screen and (min-width: 320px) and (max-width:480px) {
     .navbar-brand {
@@ -190,6 +239,15 @@ i.fa-solid.fa-star {
     .secondary-button {
         margin-top: 1rem;
     }
+
+    /* skill test */
+    .skil-test {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px 0px;
+    }
+
+
 }
 
 @media only screen and (min-width: 481px) and (max-width:768px) {
@@ -204,6 +262,18 @@ i.fa-solid.fa-star {
     .secondary-button {
         margin-top: 1rem;
     }
+
+    /* skill test */
+    .skil-test {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 20px;
+    }
+
+    .skill-card {
+        width: 17rem;
+    }
+
 }
 
 @media only screen and (min-width: 769px) and (max-width:1024px) {
@@ -240,6 +310,16 @@ i.fa-solid.fa-star {
         border: none;
         padding: 8px 20px;
         font-size: 17px;
+    }
+
+    /* skill test */
+    .skill-card {
+        width: 18rem;
+    }
+
+    .courses-btn {
+        position: absolute;
+        right: 0;
     }
 
 }
@@ -311,4 +391,6 @@ i.fa-solid.fa-star {
         height: 36px;
         width: 40px;
     }
+
+
 }
