@@ -26,59 +26,96 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg nav_bg">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" style="font-weight:700 ;" href="#">Hacker<span
-                    class="primary-color ">Hac</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-uppercase" id="navbarTogglerDemo02">
-                <form class="" role="search">
-                    <div class="d-flex align-items-center">
-                        <input type="text" style="width:300px; font-size: 15px; height: 38px;" class=""
-                            placeholder="What would you like to learn today?" aria-describedby="button-addon2">
-                        <button class="bg-white border-0 " style="height: 36px; width: 40px; margin-right: 30px;"
-                            id="button-addon2"><i class="fa-solid fa-magnifying-glass "></i></button>
+    <div class="header">
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="#">Hacker<span class="primary-color ">Hac</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse text-uppercase" id="navbarTogglerDemo02">
+
+
+                        <ul class="navbar-nav me-auto">
+                            <form class="" role="search">
+                                <div class="d-flex align-items-center">
+                                    <input class="nav-input" type="text"
+                                        placeholder="What would you like to learn today?"
+                                        aria-describedby="button-addon2">
+                                    <button class="bg-white border-0 search-button" id="button-addon2"><i
+                                            class="fa-solid fa-magnifying-glass "></i></button>
+                                </div>
+                            </form>
+                            <li class="nav-item ">
+                                <a class="nav-link  align-middle" aria-current="page" href="#">Courses</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Practical test</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">Challenges</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white">Interview preparation</a>
+                            </li>
+                            <button type="" class="border-0 primary-button mt-1"
+                                style="width: 125px; height: 31px; border-radius: 15px;">For
+                                Business</button>
+                        </ul>
+
+                        <ul class="navbar-nav  mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-white">Sign in</a>
+                            </li>
+                            <div class="d-flex align-items-center">
+                                <i class="text-white fa-regular fa-user"></i>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white">Register</a>
+                                </li>
+                            </div>
+                        </ul>
                     </div>
-                </form>
+                </div>
+            </nav>
+        </div>
 
-                <ul class="navbar-nav me-auto  mb-lg-0">
+        <!-- banner section start -->
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-sm-12 my-auto">
+                        <div class="">
+                            <div>
+                                <p class="lh-base  "><span class="banner-text-color banner-small-text">EVERYTHING WHAT
+                                        YOU
+                                        NEED</span> <br> <span class="text-white fs-5">Intelligent Online Hiring
+                                        Solution!</span> </p>
 
-                    <li class="nav-item ">
-                        <a class="nav-link active text-white align-middle" aria-current="page" href="#">Courses</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Practical test</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white">Challenges</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white">Interview preparation</a>
-                    </li>
-                    <button type="" class="border-0 primary-button mt-1"
-                        style="width: 125px; height: 31px; border-radius: 15px;">For
-                        Business</button>
-                </ul>
-
-                <ul class="navbar-nav  mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link text-white">Sign in</a>
-                    </li>
-                    <div class="d-flex align-items-center">
-                        <i class="text-white fa-regular fa-user"></i>
-                        <li class="nav-item">
-                            <a class="nav-link text-white">Register</a>
-                        </li>
+                                <h1 class="lh-1 text-white display-5 fw-bold">Pro Automated <br>
+                                    <span class="banner-text-color">Proctoring System</span>
+                                </h1>
+                                <small class="banner-text-color banner-small-text ">FOR SEAMLESS RECRUITING FROM
+                                    HACKERHAC.</small>
+                                <div class="banner-button">
+                                    <button class=" rounded primary-button banner-join-button fw-bolder">Join the
+                                        community</button>
+                                    <button class="rounded text-white secondary-button fw-bolder">How it works</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </ul>
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+
+                        <img class="img-fluid" src="./assets/header-img.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-
+    </div>
 
 
 

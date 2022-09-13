@@ -2,13 +2,55 @@
     outline: none;
 }
 
-.nav_bg {
-    background-color: #3F0066;
-    font-size: 13px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.menu {
+    background-color: #3F0066;
     height: 60px;
 }
 
+.navbar-collapse {
+    background-color: #3F0066;
+}
+
+.navbar .fa {
+    color: #ffff !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border: none;
+}
+
+.nav-link {
+    font-size: 13px !important;
+    color: #FFFFFF !important;
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900;
+    color: white;
+    outline: none;
+}
+
+i.fa-solid.fa-magnifying-glass {
+    color: gray;
+}
 
 .primary-color {
     color: #F3291A;
@@ -18,10 +60,204 @@
     background-color: #F2291A;
     color: #FFFFFF;
     text-transform: uppercase;
+    font-size: 13px !important;
+    border: none;
 }
 
-/* 
-nav.primary-button {
-    width: 100px;
-    height: 45px;
-} */
+
+
+
+.search-button {
+    height: 33px;
+    width: 40px;
+}
+
+/* banner section  */
+.banner {
+    background-image: url(../assets/header-bg.png);
+    background-size: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #65008B;
+}
+
+.banner-text-color {
+    color: #AF85F9;
+}
+
+.banner-small-text {
+    font-size: 14px;
+}
+
+.banner-button {
+    margin-top: 4rem;
+}
+
+.banner-join-button {
+    padding: 11px 45px;
+    font-size: 17px;
+    margin-right: .5rem;
+}
+
+.secondary-button {
+    background-color: #9E67FF;
+    border: none;
+    padding: 8px 60px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media only screen and (min-width: 320px) and (max-width:480px) {
+    .navbar-brand {
+        font-weight: 500
+    }
+
+    .nav-input {
+        width: 180px;
+        font-size: 10px;
+        height: 35px;
+        padding-left: 3px;
+        margin-top: 5px;
+    }
+
+    .search-button {
+        height: 34px;
+        width: 40px;
+        margin-top: 5px;
+    }
+
+    /* banner section */
+    .secondary-button {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    .nav-input {
+        width: 180px;
+        font-size: 10px;
+        height: 35px;
+        padding-left: 3px;
+    }
+
+    /* banner section */
+    .secondary-button {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+    .nav-input {
+        width: 150px;
+        font-size: 9px;
+        height: 38px;
+        padding-left: 3px;
+    }
+
+    .nav-link {
+        font-size: .5rem !important;
+    }
+
+    .navbar-brand {
+        font-weight: 500
+    }
+
+    .search-button {
+        height: 36px;
+        width: 40px;
+    }
+
+    /* banner section */
+
+    .banner-join-button {
+        padding: 11px 10px;
+        font-size: 17px;
+        margin-right: .5rem;
+    }
+
+    .secondary-button {
+        background-color: #9E67FF;
+        border: none;
+        padding: 8px 20px;
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1200px) {
+    .nav-input {
+        width: 160px;
+        font-size: 9px;
+        height: 38px;
+        padding-left: 3px;
+    }
+
+    .nav-link {
+        font-size: .5rem !important;
+    }
+
+    .navbar-brand {
+        font-weight: 500
+    }
+
+    .search-button {
+        height: 36px;
+        width: 40px;
+    }
+
+    /* banner section */
+
+    .banner-join-button {
+        padding: 11px 10px;
+        font-size: 17px;
+        margin-right: .5rem;
+    }
+
+    .secondary-button {
+        background-color: #9E67FF;
+        border: none;
+        padding: 8px 20px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width:1240px) {
+    .nav-input {
+        width: 250px;
+        font-size: 15px;
+        height: 38px;
+        padding-left: 3px;
+    }
+}
+
+@media only screen and (min-width: 1241px) {
+    .nav-input {
+        width: 250px;
+        font-size: 15px;
+        height: 38px;
+        padding-left: 3px;
+    }
+
+    .nav-link {
+        font-size: .7rem !important;
+        /* margin-right: .2rem; */
+    }
+
+    .navbar-brand {
+        font-weight: 700
+    }
+
+    .search-button {
+        height: 36px;
+        width: 40px;
+    }
+}
