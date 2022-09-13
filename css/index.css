@@ -118,8 +118,23 @@ i.fa-solid.fa-magnifying-glass {
     margin-right: 10px;
 }
 
+/* perform image */
+.perform-image {
+    margin-top: -10px;
+}
 
+.relative {
+    height: 300px;
+    width: 200px;
+    /* border: 3px solid red; */
+    position: relative;
+}
 
+.absulate {
+    position: absolute;
+    top: 70px;
+    left: 8px;
+}
 
 
 
