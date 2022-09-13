@@ -70,7 +70,6 @@ i.fa-solid.fa-magnifying-glass {
 
 
 
-
 .search-button {
     height: 33px;
     width: 40px;
@@ -114,7 +113,10 @@ i.fa-solid.fa-magnifying-glass {
     font-size: 14px;
 }
 
-
+/* advanced card  */
+.advanced-card-img {
+    margin-right: 10px;
+}
 
 
 
