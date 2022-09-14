@@ -57,7 +57,7 @@ i.fa-solid.fa-magnifying-glass {
 }
 
 .secondary-color {
-    color: #4C0079;
+    color: #3F0066;
 }
 
 .primary-button {
@@ -209,11 +209,198 @@ i.fa-solid.fa-star {
     width: 20rem;
 }
 
+/* challange card */
+.challange-card {
+    background-image: url(../assets/banner-1.jpg);
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
+.header-bg {
+    background-color: rgba(12, 12, 12, 0.363) !important;
+}
 
+i.fa-solid.fa-user {
+    color: #919192;
+    font-size: 13px;
 
+}
 
+.challenge-card-text {
+    color: #626264;
+    font-size: 15px;
+}
 
+.challange-card-text-2 {
+    font-size: 14px;
+    color: #919192;
+}
+
+.card-footer {
+    background-color: #e2dcdc;
+    height: 33px;
+}
+
+.start-now-btn {
+    background-color: #F3291A;
+    border: none;
+    font-size: 16px;
+    padding: 2px 23px;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-left: 3rem;
+}
+
+.contests-btn {
+    background-color: transparent;
+    color: #65008B;
+    padding: 5px 25px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 3px solid #65008B;
+    border-radius: 1rem;
+    transition: 0.3s;
+    margin: 10px auto;
+}
+
+.interview-card {
+    width: 28rem;
+}
+
+i.fa-solid.fa-angle-right {
+    color: #F3291A;
+}
+
+/* morder business */
+.border-right-bottom {
+    border-right: 2px dotted rgb(240, 240, 240);
+    border-bottom: 2px dotted rgb(240, 240, 240);
+    ;
+}
+
+.border-right {
+    border-right: 2px dotted rgb(240, 240, 240);
+}
+
+.border-botom {
+    border-bottom: 2px dotted rgb(240, 240, 240);
+}
+
+.register-button {
+    background-color: #3F0066;
+    color: white;
+    padding: 5px 17px;
+    border-radius: 18px;
+    font-size: 18px;
+    border: none;
+    transition: .3s;
+}
+
+.register-button:hover {
+    background-color: #F2291A;
+    transition: .3s;
+
+}
+
+i.register-icon.fa-solid.fa-angle-right {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.register-icon2 {
+    color: white !important;
+    font-size: 18px;
+    letter-spacing: 5px;
+    opacity: 60%;
+    margin-bottom: 7px;
+}
+
+/* HackerHac */
+.choose-bg {
+    background-color: #F2291A;
+    color: white;
+    padding: 0 5px;
+}
+
+.text-muted {
+    font-size: 17px;
+}
+
+.accordian-header {
+    font-size: 1rem;
+
+}
+
+button.accordion-button {
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.register-accordian {
+    background-color: #F2291A;
+    color: white;
+    padding: 5px 17px;
+    border-radius: 18px;
+    font-size: 18px;
+    border: none;
+    transition: .3s;
+}
+
+/* circle-image */
+.qualified {
+    background-color: #F1E9FF;
+}
+
+.rounded-circle {
+    border: 5px solid #dedbe4;
+}
+
+.connection-relative {
+    height: 140px;
+    width: 200px;
+    /* border: 3px solid red; */
+    position: relative;
+}
+
+.connection-absulate {
+    position: absolute;
+    top: -26px;
+    right: 74px;
+}
+
+.logo-absulate {
+    position: absolute;
+    bottom: -15px;
+    padding: 10px !important;
+}
+
+.connection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 20px;
+}
+
+.review-bg {
+    background-color: #3F0066;
+    padding: 2px 7px;
+}
+
+.carusel-section {
+    background-color: #FBFBFB;
+}
+
+.carusel-img {
+    height: 120px;
+    width: 180px;
+}
+
+.footer-bg {
+    background-color: #161021;
+    height: 450px;
+}
 
 /* media query */
 @media only screen and (min-width: 320px) and (max-width:480px) {
